@@ -1,0 +1,59 @@
+npm init @vitejs/app
+
+cd react-app
+
+Only if we need to set node version...
+
+echo 14.15.5 >> .nvmrc
+
+cd .
+
+npm i
+
+code .
+
+npm run dev
+
+clean out App.tsx
+
+add sass file
+
+check error in browser
+
+npm i -D sass
+
+create FormClass.tsx & Form.tsx
+
+add a props object for both and give title
+
+add "./src/@types" for Form types
+
+Component State managment
+
+simple counter
+
+Refs / Effects
+
+add input ref, focus on mount
+
+switch out components with counter an % on App
+
+LifeCycle / Cleanup
+add a listener to something outside of react's control e.g document
+
+MouseMove listener. Will get scope error on callback so introduce binding
+
+Update App.tsx to toggle between components so we can show them being unloaded.
+
+Show error that we get if mouse move is not removed
+
+Advanced hooks
+
+accordion
+
+
+
+
+
+
+

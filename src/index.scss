@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  padding: 32px;
+}
+
+.form {
+  > * {
+    display: block;
+  }
+
+  > * + * {
+    margin-top: 16px;
+  }
+}
+
+.form-input {
+  font-size: 18px;
+  padding: 8px;
+}
